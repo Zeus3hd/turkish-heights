@@ -81,7 +81,12 @@ const GalleryItem = () => {
         title="Paella dish"
       />
       <CardContent>
-        <Typography variant="body2" color="primary" component="p">
+        <Typography
+          variant="subtitle2"
+          gutterBottom
+          color="primary"
+          component="p"
+        >
           Price: 170.000$
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -108,7 +113,7 @@ const GalleryItem = () => {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography variant="body2" color="primary" component="p">
+          <Typography variant="subtitle2" color="primary" component="p">
             Price: 170.000$
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
