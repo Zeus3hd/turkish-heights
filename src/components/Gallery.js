@@ -39,6 +39,8 @@ const Gallery = () => {
         <Grid item>
           <GalleryItem />
         </Grid>
+      </Grid>
+      <Grid container justify="center">
         <Button variant="contained" color="primary" className={classes.button}>
           Primary
         </Button>
