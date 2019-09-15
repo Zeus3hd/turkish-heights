@@ -81,10 +81,11 @@ const GalleryItem = () => {
         title="Paella dish"
       />
       <CardContent>
+        <Typography variant="body2" color="primary" component="p">
+          Price: 170.000$
+        </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          2 bedroom apartment with 2 bathrooms - 170 sqt ft - Beach View
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
