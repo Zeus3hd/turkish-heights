@@ -28,7 +28,29 @@ const Header = () => {
         marginBottom: "2rem"
       }}
     >
-      <video
+      {dimensions.width > 1024 ? (
+        <video
+          autoPlay
+          loop
+          muted
+          style={{
+            width: "100%",
+            height: "100vh",
+            margin: 0,
+            objectFit: "fill",
+            position: "absolute",
+            zIndex: -1
+          }}
+        >
+          <source
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            type="video/mp4"
+          ></source>
+        </video>
+      ) : (
+        <div id="mobile-header"></div>
+      )}
+      {/*<video
         autoPlay
         loop
         muted
@@ -42,8 +64,8 @@ const Header = () => {
         }}
       >
         <source src={headerVideo} type="video/mp4"></source>
-      </video>
-      <h1
+      </video>*/}
+      {/*<h1
         style={{
           position: "absolute",
           width: "100%",
@@ -52,7 +74,7 @@ const Header = () => {
         }}
       >
         {dimensions.width + " x " + dimensions.height}
-      </h1>
+      </h1>*/}
     </header>
   );
 };
