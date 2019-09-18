@@ -2,16 +2,19 @@ nav {
   display: flex;
   margin: 0;
   justify-content: space-between;
-  padding-bottom: 1.1rem;
-  border-bottom: 1.5px solid rgb(211, 211, 211);
+  padding-bottom: 0.5rem;
+  border-bottom: 1.5px solid rgba(211, 211, 211, 0.5);
   position: absolute;
   width: 100%;
+  background: rgba(211, 211, 211, 0.5);
+  align-items: flex-end;
 }
 nav button {
   background: none;
   outline: none;
   border: none;
   cursor: pointer;
+  padding: 2px;
 }
 #side-nav {
   position: fixed;
@@ -30,6 +33,7 @@ nav button {
 }
 #logo {
   max-height: 30px;
+  padding: 2px;
 }
 #side-nav ul {
   margin: 0;
