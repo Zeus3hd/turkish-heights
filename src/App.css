@@ -53,20 +53,21 @@ nav button {
 }
 
 #mobile-header {
-  background: url("./imgs/3.jpg") no-repeat;
+  background: url("./imgs/header4.jpg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
+  position: absolute;
+  z-index: -2;
 }
 
 header::after {
   content: "TURKISH HEIGHTS";
-  white-space: pre;
   position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3em;
   padding: 10px 20px;
   box-sizing: border-box;
   color: #fcf;
