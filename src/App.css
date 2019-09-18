@@ -61,11 +61,12 @@ nav button {
 
 header::after {
   content: "TURKISH HEIGHTS";
+  white-space: pre;
   position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 10px 20px;
   box-sizing: border-box;
   color: #fcf;
@@ -74,4 +75,22 @@ header::after {
   align-items: center;
   background: rgba(41, 40, 40, 0.5);
   z-index: -1;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #202433 0px 0px 20px, #202433 0px 0px 30px, #202433 0px 0px 40px,
+    #202433 0px 0px 50px, #202433 0px 0px 75px;
+  color: #ffffff;
+  animation: anim 7s infinite;
+}
+
+@keyframes anim {
+  50% {
+    text-shadow: #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px,
+      #202433 0px 0px 20px, #202433 0px 0px 30px, #202433 0px 0px 1px,
+      #202433 0px 0px 30px, #202433 0px 0px 40px;
+  }
+  100% {
+    text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+      #202433 0px 0px 20px, #202433 0px 0px 30px, #202433 0px 0px 40px,
+      #202433 0px 0px 50px, #202433 0px 0px 75px;
+  }
 }
