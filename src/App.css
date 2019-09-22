@@ -108,3 +108,12 @@ header::after {
   color: #555555;
   font-weight: 400;
 }
+
+footer {
+  margin-top: 5rem;
+  height: 800px;
+  background: url("./imgs/footer2(2).png") no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
+}
