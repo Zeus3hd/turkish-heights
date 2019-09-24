@@ -4,6 +4,10 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import WebIcon from "@material-ui/icons/Web";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 const Footer = () => {
   const [mapWidth, setMapWidth] = useState(false);
   return (
@@ -82,6 +86,9 @@ const Footer = () => {
             <a href="https://maps.google.com/maps?q=1kentistanbul&t=&z=17&ie=UTF8&iwloc=&output">
               Istanbul-Esenyurt Yeselkent- 2011 SK.
             </a>
+          </li>
+          <li>
+            <FacebookIcon /> <TwitterIcon /> <InstagramIcon /> <YouTubeIcon />
           </li>
         </ul>
       </div>
