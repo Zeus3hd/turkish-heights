@@ -22,7 +22,7 @@ const Features = () => {
   return (
     <Container>
       <div className={classes.root}>
-        <Grid container spacing={3} justify="center">
+        <Grid container spacing={3} justify="space-between">
           <Grid item sm={3} xs={12} className="features-lists">
             <img src={stocksIcon} alt="features" className={classes.features} />
             <ul>

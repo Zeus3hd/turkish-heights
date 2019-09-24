@@ -116,4 +116,14 @@ footer {
   background-position-y: top;
   background-position-x: center;
   background-size: cover;
+  position: relative;
+}
+
+#sub-footer {
+  height: 350px;
+  background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0));
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  bottom: 0;
 }
