@@ -117,8 +117,15 @@ footer {
   background-position-x: center;
   background-size: cover;
   position: relative;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+}
+footer > div {
+  flex: 1;
 }
 
+/* 
 #sub-footer {
   height: 350px;
   background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0));
@@ -126,4 +133,4 @@ footer {
   width: 100%;
   z-index: 2;
   bottom: 0;
-}
+} */
